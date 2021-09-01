@@ -1,0 +1,41 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "Project to consume API to develop Leaderboard in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanteAlonsoHT/Leaderboard_API.git"
+  },
+  "keywords": [
+    "API",
+    "JavaScript",
+    "WebPack",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Dante Alonso <dante1818@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanteAlonsoHT/Leaderboard_API/issues"
+  },
+  "homepage": "https://github.com/DanteAlonsoHT/Leaderboard_API#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "i": "^0.3.6",
+    "mini-css-extract-plugin": "^2.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0"
+  }
+}
