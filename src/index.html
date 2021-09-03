@@ -13,34 +13,24 @@
         <h1 class="py-5" id="title-leaderboard">Leaderboard</h1>
         <div class="d-flex justify-content-between">
             <h2 class="d-inline me-2"> Recent Scores </h2>
-            <button type="button" class="btn btn-outline-secondary">Refresh</button>
+            <button type="button" class="btn btn-outline-secondary" id="refreshButton">Refresh</button>
         </div>
         <div class="py-2">
             <table class="table table-striped">
-                  <tbody id="table-scores">
-                    <tr>
-                      <td>Name: 100</td>
-                    </tr>
-                    <tr>
-                      <td>Name: 100</td>
-                    </tr>
-                    <tr>
-                      <td>Name: 100</td>
-                    </tr>
-                  </tbody>
+                  <tbody id="table-scores"></tbody>
             </table>
         </div>
     </section>
     <section class="d-flex flex-column justify-content-center min-vh-100 m-3">
         <h2 class="py-3">Add your score</h2>
-        <form class="d-flex flex-column">
+        <form class="d-flex flex-column" id="form-scores">
             <div class="form-floating mb-3">
                 <input type="text" class="form-control" id="floatingInput" placeholder="Your Name">
                 <label for="floatingInput">Your Name</label>
             </div>
             <div class="form-floating">
-                <input type="number" class="form-control" id="floatingPassword" placeholder="Your Score">
-                <label for="floatingPassword">Your Score</label>
+                <input type="number" class="form-control" id="floatingScore" placeholder="Your Score">
+                <label for="floatingScore">Your Score</label>
             </div>
             <button type="submit" class="btn btn-outline-secondary my-3">Submit</button>
         </form>

@@ -1,14 +1,12 @@
-import { allScores } from './handleData';
-
 const tableScores = document.getElementById('table-scores');
 
-const displayData = () => {
+const displayData = (players) => {
   tableScores.innerHTML = '';
-  allScores.forEach((data) => {
+  players.forEach((player, index) => {
     tableScores.innerHTML += `<tr>
-                                    <td>${data.Name}: ${data.Score}</td>
+                                    <td id="player-${index}">${player.user}: ${player.score}</td>
                                   </tr>`;
   });
 };
 
-export { displayData };
+export default displayData;
