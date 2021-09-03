@@ -1,3 +1,20 @@
+body::-webkit-scrollbar,
+.responsive-table::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-track,
+.responsive-table::-webkit-scrollbar-track {
+  background: #dddd;
+}
+
+body::-webkit-scrollbar-thumb,
+.responsive-table::-webkit-scrollbar-thumb {
+  background-color: #7777;
+  border-radius: 2rem;
+  border: 2px solid #5555;
+}
+
 #title-leaderboard {
   font-size: 64px;
 }
@@ -11,6 +28,7 @@ table tr:hover {
 }
 
 .responsive-table {
+  margin: 1rem auto;
   max-height: 500px;
   overflow-y: scroll;
 }
