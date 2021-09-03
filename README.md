@@ -2,9 +2,11 @@
 
 # Leaderboard API | Hit the API.
 
-For this repository, I've created a project to add functionalities from API such as adding POST and GET methods to access the data from the cloud, also I've been implementing dynamic web app using the data extracted by the cloud using the API, and the form to create new data to send to the cloud.
+For this repository, I've created a project to add functionalities from API such as adding POST and GET methods to access the data from the cloud, also I've implemented a dynamic web app using the data extracted by the cloud using the API, and the form to create new data to send to the cloud.
 
-I've been using Webpack to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
+<br><img src="src\img\leaderboard_image.PNG"><br>
+
+I used Webpack to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
 ## Built With 🔨
 
@@ -20,9 +22,23 @@ I've been using Webpack to manage the files for the front-end, using loaders for
 
 To get a local copy up and running follow these simple example steps.
 - Open terminal
-- Clone this project by the command: `git clone https://github.com/DanteAlonsoHT/Leaderboard_API.git`
-- `cd Leaderboard_API` folder
-- Run `npm start` to see the web app in your local browser or using Live Server in Visual Studio Code.
+- Clone this project by the command: 
+
+```
+$ git clone https://github.com/DanteAlonsoHT/Leaderboard_API.git
+```
+
+- Then go to the main folder using the next command:
+
+```
+$ cd Leaderboard_API
+```
+
+- Finally, run the next command in the terminal to see the web app in your local browser, or also, you can use Live Server in Visual Studio Code.
+
+```
+$ npm start
+```
 
 ### Prerequisites
 
@@ -35,6 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 - For anyone who wants to practice Webpack skills.
 - How to manage your front-end files using Webpack.
+- For anyone who wants to practice API consumption using JavaScript.
 
 
 ## Authors
@@ -62,8 +79,8 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used 🔰
 - Inspiration 💘
 - Microverse program ⚡
-- Our standup team 🏹
-- Our family's support 🙌
+- My standup team 🏹
+- My family's support 🙌
 
 ## 📝 License
 
