@@ -14,12 +14,12 @@ refreshButton.addEventListener('click', () => {
 });
 
 formScores.addEventListener('submit', (ev) => {
-    ev.preventDefault();
-    postByAPI();
-    formScores.reset();
+  ev.preventDefault();
+  postByAPI();
+  formScores.reset();
 });
 
 getByAPI(urlGameAPI)
   .then((res) => {
     displayData(res.result);
-});
+  });

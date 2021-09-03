@@ -12,7 +12,7 @@ const postByAPI = async () => {
     body: JSON.stringify(
       {
         user: `${nameInput.value}`,
-        score: `${scoreInput.value}`
+        score: `${scoreInput.value}`,
       },
     ),
   });
@@ -24,9 +24,7 @@ const getByAPI = async (url) => {
   const response = await fetch(url);
 
   const result = await response.json();
-  if (result) {
-    document.getElementById('form-scores').reset;
-  }
+
   return result;
 };
 
