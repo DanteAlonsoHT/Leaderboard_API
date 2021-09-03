@@ -1,3 +1,16 @@
 #title-leaderboard {
   font-size: 64px;
 }
+
+table {
+  cursor: pointer;
+}
+
+table tr:hover {
+  opacity: 50%;
+}
+
+.responsive-table {
+  max-height: 500px;
+  overflow-y: scroll;
+}
