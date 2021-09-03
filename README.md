@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# Leaderboard API | Setup Project.
+# Leaderboard API | Hit the API.
 
-For this repository, I've created a project to make the skeleton HTML for the Leaderboard Project. This is the dynamic template to still working on the future for the next Milestones.
+For this repository, I've created a project to add functionalities from API such as adding POST and GET methods to access the data from the cloud, also I've been implementing dynamic web app using the data extracted by the cloud using the API, and the form to create new data to send to the cloud.
 
 I've been using Webpack to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
